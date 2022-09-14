@@ -15,16 +15,7 @@ function App() {
 
   return (
    <div  >
-<h1> Home Page</h1>
-<BrowserRouter>
-<Navbar/>
-<Routes>
-  <Route path='/home' element={<Home/>}/>
-  <Route path='/About' element={<About/>}/>
-  <Route path='/contact' element={<Contact/>}/>
-  
-</Routes>
-</BrowserRouter>
+
 
      
     </div>
